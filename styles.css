@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fff;
+
+}
+
+header {
+  background-color: #e0e0e0;
+  padding: 20px 0;
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.logo-container img {
+  max-width: 100px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 130px auto 20px; /* Increased margin to accommodate the fixed header */
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555;
+  font-size: 1.2em;
+}
+
+.features {
+  margin-top: 40px;
+}
+
+.features h2 {
+  color: #333;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.feature-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: scale(1.02);
+}
+
+.feature-card h3 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  color: #777;
+  font-size: 1.2em;
+}
+
+
+footer {
+  background-color: #e0e0e0;
+  color: #fff;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 00px;
+}
+.footer-container {
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 1000;
+  text-align: center;
+  padding: 10px;
+}
+
+.terms-button {
+  
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px; /* Adjust the padding */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em; /* Adjust the font size */
+  transition: background-color 0.3s ease;
+}
